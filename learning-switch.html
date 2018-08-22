@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var day;
+switch (new Date().getDay()) {
+    default:
+        day = "today";
+        break;
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case  6:
+        day = "Saturday";
+
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grade of 90 and above is an A
+Grade of 80 to 89 is a B
+Grade of 70 to 79 is a C
+Grade of 60 to 69 is a D
+Grade of 59 or below is an F
+Now we can write that as a switch statement. Since we're checking a range, we will perform the operation in each case to check if each expression is evaluating to true then break out of the statement once the requirements for true have been satisfied.
