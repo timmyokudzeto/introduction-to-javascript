@@ -43,38 +43,16 @@ if(age > 12){
   }else {
   alert("sorry you are DISQUALIFIED since your age is" +" " + age)
 }
-
-if(condition){
-  alert("timi is fine")
-  if(condit){
-    alert("navigate")
-    if (condition){
-    alert("elevate")
+const people = 15;
+var allowed = 0;
+      while (allowed < people) {
+        allowed++
+      console.log("there is room left for only " + (people - allowed) + " more people");
     }
-    else if(condition){
-    alert("a ball")
-    }
-  }
-  if(condition){
-  alert("a ball")
-  }
-  alert("timi")
-}else {
-  alert("ant-man")
-}
-switch (expression) {
-  case 0:
-    day = "sunday"
-    break;
-  case 1:
-    day = "monday";
-    break;
-  case 2:
-    day = "tuesday"
-      break;
-  case 3:
-   day = "wednesday";
-}
+    /*\n new line
+    \u[code] for unicodes
+     character if string begins with quotation marks apostrophe is allowed if you want to put
+    quotation marks use this ''   */
 
 
 
@@ -88,7 +66,11 @@ switch (expression) {
 
 
 
-
+/*The expression is evaluated
+The first case, x, will be tested against the expression. If it matches, the code will execute, and the break keyword will end the switch block.
+If it does not match, x will be skipped and the y case will be tested against the expression. If y matches the expression, the code will execute and exit out of the switch block.
+If none of the cases match, the default code block will run.
+Let's make a working example of a switch statement following the syntax above. In this code block, we will find the current day of the week with the new Date() method, and getDay() to print a number corresponding to the current day. 1 stands for Monday, all the way through 7 which stands for Sunday. We'll start by setting up our variable.*/
 
 
 

@@ -11,3 +11,4 @@ var i
 for(i = 0; i < listofaddresses.length; i++){console.log(sentence + " " + listofaddresses[i])}
 for(var i = 2000; i < 1000; i--){console.log(i)}
 //var sunday = ["ruby" "python","java","javascript","c++"]
+for (var i = 1; i <100 ; i++) {console.log(i)}
